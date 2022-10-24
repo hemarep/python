@@ -14,23 +14,23 @@ loan_rules = [{"cs_start":100,"cs_end":200,"loan_amt_start":10000,"loan_amt_end"
              ]
 
 #Logic
-#def lms_engine(p_cust_name, p_cust_cs, p_cust_req_loan_amt):
-p_cust_name, p_cust_cs, p_cust_req_loan_amt = "John", 350, 15000
-l_is_success = 0
+def lms_engine(p_cust_name, p_cust_cs, p_cust_req_loan_amt):
+#p_cust_name, p_cust_cs, p_cust_req_loan_amt = "John", 350, 15000
+    l_is_success = 0
 
-for c in loan_rules:
-    if p_cust_cs >= c["cs_start"] and p_cust_cs <= c["cs_end"] and p_cust_req_loan_amt >= c[
-        "loan_amt_start"] and p_cust_req_loan_amt <= c["loan_amt_end"]:
-        print(p_cust_name)
-        print(c["interest"])
-        print(c["duration_in_months"])
-        l_is_success = 1
-        break
+    for c in loan_rules:
+        if p_cust_cs >= c["cs_start"] and p_cust_cs <= c["cs_end"] and p_cust_req_loan_amt >= c[
+            "loan_amt_start"] and p_cust_req_loan_amt <= c["loan_amt_end"]:
+            print(p_cust_name)
+            print(c["interest"])
+            print(c["duration_in_months"])
+            l_is_success = 1
+            break
 
-if l_is_success == 0:
-    print("Sorry", p_cust_name, "your CS is too low")
+    if l_is_success == 0:
+        print("Sorry", p_cust_name, "your CS is too low")
 
 #Transactional Data
-#lms_engine("John",50,15000)
-#
-this is change
+lms_engine("John",50,15000)
+
+iterator, yield, pickle, serialization, de-ser, lamda, map

@@ -1,21 +1,11 @@
 import os
 
 print(os.getcwd())
-os.chdir("//Users/arun//")
+os.chdir("//Users/arun//test//")
 print(os.getcwd())
 
+nf = open("newfile.txt",'w')
+for i in range(10):
+    nf.write("this is line " + str(i)+ "\n")
 
-def perm(l):
-# Compute the list of all permutations of l
-    if len(l) <= 1:
-        return [l]
-    r = []
-    for i in range(len(l)):
-        s = l[:i] + l[i + 1:]
-        p = perm(s)
-        for x in p:
-            r.append(l[i:i + 1] + x)
-    return r
-
-print(perm("arun"))
-
+print(nf.readlines())

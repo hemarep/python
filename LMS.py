@@ -33,4 +33,3 @@ def lms_engine(p_cust_name, p_cust_cs, p_cust_req_loan_amt):
 #Transactional Data
 lms_engine("John",50,15000)
 
-iterator, yield, pickle, serialization, de-ser, lamda, map

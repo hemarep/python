@@ -19,17 +19,19 @@ print(type(data))
 # print("-------------------------------------------------")
 # print(json.dumps(data['dataseries'],indent=4))
 dataseries_l = list()
-dataseries_l = dict()
+#dataseries_l = dict()
+
 
 for item in data['dataseries']:
-    dataseries_l['timepoint'] = item['timepoint']
-    dataseries_l['timepoint'] = item['timepoint']
-    dataseries_l['seeing'] = item['seeing']
-    dataseries_l['transparency'] = item['transparency']
-    dataseries_l['rh2m'] = item['rh2m']
-    dataseries_l['lifted_index'] = item['lifted_index']
 
-    dataseries_l.update({
+    # dataseries_l['timepoint'] = item['timepoint']
+    # dataseries_l['timepoint'] = item['timepoint']
+    # dataseries_l['seeing'] = item['seeing']
+    # dataseries_l['transparency'] = item['transparency']
+    # dataseries_l['rh2m'] = item['rh2m']
+    # dataseries_l['lifted_index'] = item['lifted_index']
+
+    dataseries_l.append({
         'timepoint': item['timepoint'],
         'cloudcover': item['cloudcover'],
         'seeing': item['seeing'],
@@ -40,3 +42,4 @@ for item in data['dataseries']:
 
 with open('Weather_forecasts.json', 'w') as f:
     json.dump(dataseries_l, f, indent=2)
+

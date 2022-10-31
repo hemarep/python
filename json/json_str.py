@@ -30,20 +30,28 @@ for items in data["BillDetails"]:
     new_json2 = json.dumps(items,indent=4)
     new_json3 = json.dumps(items,indent=8,sort_keys=True)
 
-
+"""
 print (new_json1)
 print (new_json2)
 print (new_json3)
-
+"""
 
 ##################################################################
 
 # some JSON:
-x =  '{ "name":"hema arun", "age":30, "city":"Richmond"}'
+#x =  '{ "name":"hema arun", "age":30, "city":"Richmond"}'
+x='{"hello world1":"vanakam2","hello world":"vanakam2"}'
+
+print(x)
+print(type(x))
+
 
 # parse x:
 y = json.loads(x)
 
+print(y)
+print(type(y))
+
 # the result is a Python dictionary:
-print(y["age"])
+#print(y["age"])
 

@@ -1,24 +1,13 @@
 import csv
+import boto3
 
-with open('usa_cities.csv','r') as f:
-    csv_data = csv.reader(f)
-    print(type(csv_data))
-    next(csv_data)
-    # for row in csv_data:
-    #     print(row)
+boto3.setup_default_session(profile_name='hema_mac')
+s3_client = boto3.client('s3')
 
-    with open('usa_cities_new.csv','w', newline='') as fw:
-        usa_city_new_data = csv.writer(fw,delimiter='\t')
-        for row in csv_data:
-            print(row)
-            usa_city_new_data.writerow(row)
-
-
-# DictWriter Method
 with open('usa_cities.csv', 'r') as file:
     csv_data = csv.DictReader(file)
 
-    with open('usa_cities_new_dict.csv', 'w', newline='') as new_file:
+    with open('usa_cities_new_dict_only_VA.csv', 'w', newline='') as new_file:
         fieldnames = {'LatD':'VA_LatD',
                       'LatM':'VA_LatM',
                       'LatS':'VA_LatS',
@@ -30,13 +19,13 @@ with open('usa_cities.csv', 'r') as file:
                       'City':'VA_City',
                       'State':'VA_State'}
 
-        usa_cities_writer = csv.DictWriter(new_file, fieldnames=fieldnames, delimiter='-')
+        usa_cities_writer = csv.DictWriter(new_file, fieldnames=fieldnames, delimiter='\t')
         #usa_cities_writer.writeheader()
         usa_cities_writer.writerow(fieldnames)
         for row in csv_data:
-            #print(row)
             if row:
                 #print(row['State'])
                 if (row['State'].strip(' '))=='VA':
                     usa_cities_writer.writerow(row)
 
+    s3_client.upload_file('usa_cities_new_dict_only_VA.csv', 'pythonoct2022', 'Only_VA_On_The_Fly_Hema.csv')

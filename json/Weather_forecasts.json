@@ -1,194 +1,194 @@
 [
   {
-    "timepoint": 3,
-    "cloudcover": 9,
-    "seeing": 7,
-    "transparency": 3,
-    "rh2m": 8,
-    "lifted_index": 15
+    "timepoint_abc": 3,
+    "cloudcover_abc": 9,
+    "seeing_abc": 6,
+    "transparency_abc": 2,
+    "rh2m_abc": 4,
+    "lifted_index_abc": 15
   },
   {
-    "timepoint": 6,
-    "cloudcover": 9,
-    "seeing": 7,
-    "transparency": 3,
-    "rh2m": 7,
-    "lifted_index": 15
+    "timepoint_abc": 6,
+    "cloudcover_abc": 9,
+    "seeing_abc": 6,
+    "transparency_abc": 2,
+    "rh2m_abc": 4,
+    "lifted_index_abc": 15
   },
   {
-    "timepoint": 9,
-    "cloudcover": 9,
-    "seeing": 6,
-    "transparency": 2,
-    "rh2m": 4,
-    "lifted_index": 15
+    "timepoint_abc": 9,
+    "cloudcover_abc": 9,
+    "seeing_abc": 6,
+    "transparency_abc": 2,
+    "rh2m_abc": 4,
+    "lifted_index_abc": 15
   },
   {
-    "timepoint": 12,
-    "cloudcover": 9,
-    "seeing": 6,
-    "transparency": 2,
-    "rh2m": 2,
-    "lifted_index": 15
+    "timepoint_abc": 12,
+    "cloudcover_abc": 9,
+    "seeing_abc": 6,
+    "transparency_abc": 2,
+    "rh2m_abc": 4,
+    "lifted_index_abc": 15
   },
   {
-    "timepoint": 15,
-    "cloudcover": 9,
-    "seeing": 6,
-    "transparency": 2,
-    "rh2m": 2,
-    "lifted_index": 15
+    "timepoint_abc": 15,
+    "cloudcover_abc": 9,
+    "seeing_abc": 6,
+    "transparency_abc": 2,
+    "rh2m_abc": 2,
+    "lifted_index_abc": 15
   },
   {
-    "timepoint": 18,
-    "cloudcover": 9,
-    "seeing": 7,
-    "transparency": 2,
-    "rh2m": 3,
-    "lifted_index": 15
+    "timepoint_abc": 18,
+    "cloudcover_abc": 9,
+    "seeing_abc": 6,
+    "transparency_abc": 2,
+    "rh2m_abc": 2,
+    "lifted_index_abc": 15
   },
   {
-    "timepoint": 21,
-    "cloudcover": 9,
-    "seeing": 6,
-    "transparency": 2,
-    "rh2m": 3,
-    "lifted_index": 15
+    "timepoint_abc": 21,
+    "cloudcover_abc": 9,
+    "seeing_abc": 6,
+    "transparency_abc": 2,
+    "rh2m_abc": 2,
+    "lifted_index_abc": 15
   },
   {
-    "timepoint": 24,
-    "cloudcover": 9,
-    "seeing": 6,
-    "transparency": 2,
-    "rh2m": 4,
-    "lifted_index": 15
+    "timepoint_abc": 24,
+    "cloudcover_abc": 9,
+    "seeing_abc": 6,
+    "transparency_abc": 2,
+    "rh2m_abc": 3,
+    "lifted_index_abc": 15
   },
   {
-    "timepoint": 27,
-    "cloudcover": 9,
-    "seeing": 6,
-    "transparency": 2,
-    "rh2m": 3,
-    "lifted_index": 15
+    "timepoint_abc": 27,
+    "cloudcover_abc": 9,
+    "seeing_abc": 6,
+    "transparency_abc": 2,
+    "rh2m_abc": 2,
+    "lifted_index_abc": 15
   },
   {
-    "timepoint": 30,
-    "cloudcover": 9,
-    "seeing": 6,
-    "transparency": 2,
-    "rh2m": 3,
-    "lifted_index": 15
+    "timepoint_abc": 30,
+    "cloudcover_abc": 9,
+    "seeing_abc": 6,
+    "transparency_abc": 2,
+    "rh2m_abc": 2,
+    "lifted_index_abc": 15
   },
   {
-    "timepoint": 33,
-    "cloudcover": 9,
-    "seeing": 6,
-    "transparency": 2,
-    "rh2m": 2,
-    "lifted_index": 15
+    "timepoint_abc": 33,
+    "cloudcover_abc": 9,
+    "seeing_abc": 6,
+    "transparency_abc": 2,
+    "rh2m_abc": 6,
+    "lifted_index_abc": 15
   },
   {
-    "timepoint": 36,
-    "cloudcover": 9,
-    "seeing": 6,
-    "transparency": 2,
-    "rh2m": 1,
-    "lifted_index": 15
+    "timepoint_abc": 36,
+    "cloudcover_abc": 9,
+    "seeing_abc": 6,
+    "transparency_abc": 3,
+    "rh2m_abc": 7,
+    "lifted_index_abc": 15
   },
   {
-    "timepoint": 39,
-    "cloudcover": 9,
-    "seeing": 6,
-    "transparency": 2,
-    "rh2m": 0,
-    "lifted_index": 15
+    "timepoint_abc": 39,
+    "cloudcover_abc": 9,
+    "seeing_abc": 6,
+    "transparency_abc": 3,
+    "rh2m_abc": 7,
+    "lifted_index_abc": 15
   },
   {
-    "timepoint": 42,
-    "cloudcover": 9,
-    "seeing": 6,
-    "transparency": 2,
-    "rh2m": 1,
-    "lifted_index": 15
+    "timepoint_abc": 42,
+    "cloudcover_abc": 9,
+    "seeing_abc": 6,
+    "transparency_abc": 3,
+    "rh2m_abc": 8,
+    "lifted_index_abc": 15
   },
   {
-    "timepoint": 45,
-    "cloudcover": 9,
-    "seeing": 6,
-    "transparency": 2,
-    "rh2m": 2,
-    "lifted_index": 15
+    "timepoint_abc": 45,
+    "cloudcover_abc": 9,
+    "seeing_abc": 6,
+    "transparency_abc": 3,
+    "rh2m_abc": 8,
+    "lifted_index_abc": 15
   },
   {
-    "timepoint": 48,
-    "cloudcover": 9,
-    "seeing": 6,
-    "transparency": 2,
-    "rh2m": 2,
-    "lifted_index": 15
+    "timepoint_abc": 48,
+    "cloudcover_abc": 9,
+    "seeing_abc": 6,
+    "transparency_abc": 3,
+    "rh2m_abc": 8,
+    "lifted_index_abc": 15
   },
   {
-    "timepoint": 51,
-    "cloudcover": 9,
-    "seeing": 6,
-    "transparency": 2,
-    "rh2m": 3,
-    "lifted_index": 15
+    "timepoint_abc": 51,
+    "cloudcover_abc": 9,
+    "seeing_abc": 6,
+    "transparency_abc": 3,
+    "rh2m_abc": 9,
+    "lifted_index_abc": 15
   },
   {
-    "timepoint": 54,
-    "cloudcover": 9,
-    "seeing": 6,
-    "transparency": 2,
-    "rh2m": 5,
-    "lifted_index": 15
+    "timepoint_abc": 54,
+    "cloudcover_abc": 9,
+    "seeing_abc": 6,
+    "transparency_abc": 4,
+    "rh2m_abc": 9,
+    "lifted_index_abc": 15
   },
   {
-    "timepoint": 57,
-    "cloudcover": 9,
-    "seeing": 7,
-    "transparency": 3,
-    "rh2m": 10,
-    "lifted_index": 15
+    "timepoint_abc": 57,
+    "cloudcover_abc": 9,
+    "seeing_abc": 6,
+    "transparency_abc": 4,
+    "rh2m_abc": 10,
+    "lifted_index_abc": 10
   },
   {
-    "timepoint": 60,
-    "cloudcover": 9,
-    "seeing": 6,
-    "transparency": 3,
-    "rh2m": 7,
-    "lifted_index": 15
+    "timepoint_abc": 60,
+    "cloudcover_abc": 9,
+    "seeing_abc": 6,
+    "transparency_abc": 5,
+    "rh2m_abc": 11,
+    "lifted_index_abc": 10
   },
   {
-    "timepoint": 63,
-    "cloudcover": 9,
-    "seeing": 6,
-    "transparency": 3,
-    "rh2m": 7,
-    "lifted_index": 15
+    "timepoint_abc": 63,
+    "cloudcover_abc": 9,
+    "seeing_abc": 7,
+    "transparency_abc": 7,
+    "rh2m_abc": 13,
+    "lifted_index_abc": 10
   },
   {
-    "timepoint": 66,
-    "cloudcover": 9,
-    "seeing": 6,
-    "transparency": 3,
-    "rh2m": 7,
-    "lifted_index": 15
+    "timepoint_abc": 66,
+    "cloudcover_abc": 9,
+    "seeing_abc": 6,
+    "transparency_abc": 7,
+    "rh2m_abc": 12,
+    "lifted_index_abc": 10
   },
   {
-    "timepoint": 69,
-    "cloudcover": 9,
-    "seeing": 6,
-    "transparency": 3,
-    "rh2m": 7,
-    "lifted_index": 15
+    "timepoint_abc": 69,
+    "cloudcover_abc": 9,
+    "seeing_abc": 7,
+    "transparency_abc": 8,
+    "rh2m_abc": 13,
+    "lifted_index_abc": 10
   },
   {
-    "timepoint": 72,
-    "cloudcover": 9,
-    "seeing": 7,
-    "transparency": 3,
-    "rh2m": 8,
-    "lifted_index": 15
+    "timepoint_abc": 72,
+    "cloudcover_abc": 9,
+    "seeing_abc": 7,
+    "transparency_abc": 6,
+    "rh2m_abc": 12,
+    "lifted_index_abc": 6
   }
 ]

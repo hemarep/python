@@ -28,4 +28,4 @@ with open('usa_cities.csv', 'r') as file:
                 if (row['State'].strip(' '))=='VA':
                     usa_cities_writer.writerow(row)
 
-    s3_client.upload_file('usa_cities_new_dict_only_VA.csv', 'pythonoct2022', 'incoming/sample/test/.csv')
+    #s3_client.upload_file('usa_cities_new_dict_only_VA.csv', 'pythonoct2022', 'incoming/sample/test/.csv')

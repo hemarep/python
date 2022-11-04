@@ -11,12 +11,12 @@ print(s3_client.list_objects(Bucket=l_s3_bucket)['Contents'])
 #printing all objects in the bucket CLIENT LEVEL (low level objects)
 for key in s3_client.list_objects(Bucket=l_s3_bucket)['Contents']:
    print(key['Key'])
-
+"""
 print("#printing all objects in the bucket RESOURCE LEVEL (high level objects)")
 l_s3_bucket_resource = s3.Bucket(l_s3_bucket)
 for file in l_s3_bucket_resource.objects.all():
    print(file.key)
-
+"""
 
 ###tried from boto3 docs
 ##not working

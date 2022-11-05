@@ -12,8 +12,10 @@ with open('products.csv','r') as f1:
         prod_master_data.append(data)
 
 ## importing Json
-f2 = open('20221104084722.json', 'r')
+f2 = open('/Users//arun//PycharmProjects//python//bill_project//new_bills//20221104232943.json', 'r')
 bill = json.load(f2)
+
+print(bill)
 
 ## total calculation
 for line_item in bill["BillDetails"]:
@@ -22,11 +24,18 @@ for line_item in bill["BillDetails"]:
             total_bill = total_bill + (float(bill["BillDetails"][line_item]) * float(mstr_data[3]))
 
 ## exporting new json
+
+op_path = '//Users//arun//PycharmProjects//python//bill_project//output_totals//'
+
 bill["Total"]=total_bill
-op_file = open(bill['BillID'] + "_with_totals.json", "w")
+op_file = open(op_path + bill['BillID'] + "_with_totals.json", "w")
 op_file.write(json.dumps(bill))
+
+print(bill)
 
 ##closing files object
 op_file.close()
 f1.close()
 f2.close()
+
+#91 89392 90389

@@ -31,7 +31,7 @@ def getQty():
 
 #
 #l_bills_path = "E:\\code\\PYTHON_TRAINING\\Assignments\\Billing\\bills\\"
-l_bills_path = "//Users//arun//PycharmProjects//python//Misc//IP_FILE//"
+l_bills_path = "//Users//arun//PycharmProjects//python//bill_project//new_bills//"
 
 run = True
 
@@ -58,11 +58,11 @@ while run:
 
     print("print(l_bill_json):", l_bill_json)
 
-    new_file = open(l_bills_path + l_bill_id + "_sample_hema.json", "w")
+    new_file = open(l_bills_path + l_bill_id + ".json", "w")
     new_file.write(json.dumps(l_bill_json))
     new_file.close()
 
-    run = False
+    #run = False
 
 
-    #time.sleep(2)
+    time.sleep(2)

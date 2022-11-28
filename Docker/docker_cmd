@@ -1,0 +1,61 @@
+Last login: Thu Nov  3 08:16:28 on ttys001
+
+
+arun@macbook:~$ docker images
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+
+arun@macbook:~$ docker images
+REPOSITORY                      TAG       IMAGE ID       CREATED        SIZE
+hema2python/docker101tutorial   latest    e6d72f4ec7b2   37 hours ago   28.9MB
+docker101tutorial               latest    e6d72f4ec7b2   37 hours ago   28.9MB
+alpine/git                      latest    42a1cda0ba24   2 weeks ago    43.6MB
+
+arun@macbook:~$ docker pull postgres
+Using default tag: latest
+latest: Pulling from library/postgres
+e9995326b091: Pull complete
+a0cb03f17886: Pull complete
+bb26f7e78134: Pull complete
+c8e073b7ae91: Pull complete
+99b5b1679915: Pull complete
+55c520fc03c5: Pull complete
+d0ac84d6672c: Pull complete
+4effb95d5849: Pull complete
+f4c3677d4414: Pull complete
+6707712b5af7: Pull complete
+896a00668d28: Pull complete
+50b8050f9af6: Pull complete
+203e0ce1e9da: Pull complete
+Digest: sha256:bab8d7be6466e029f7fa1e69ff6aa0082704db330572638fd01f2791824774d8
+Status: Downloaded newer image for postgres:latest
+docker.io/library/postgres:latest
+
+arun@macbook:~$ docker images
+REPOSITORY                      TAG       IMAGE ID       CREATED        SIZE
+docker101tutorial               latest    e6d72f4ec7b2   37 hours ago   28.9MB
+hema2python/docker101tutorial   latest    e6d72f4ec7b2   37 hours ago   28.9MB
+postgres                        latest    027eba2e8939   9 days ago     377MB
+alpine/git                      latest    42a1cda0ba24   2 weeks ago    43.6MB
+
+arun@macbook:~$ docker ps
+CONTAINER ID   IMAGE               COMMAND                  CREATED        STATUS         PORTS                NAMES
+35d9edbbe3d8   docker101tutorial   "/docker-entrypoint.…"   37 hours ago   Up 5 seconds   0.0.0.0:80->80/tcp   docker-tutorial
+
+arun@macbook:~$ docker run --name syntaxboard -e POSTGRES_USER=syntaxboard -e POSTGRES_PASSWORD=syntaxboard -d postgres
+56f9fe4d029b30af64cce0935eb4f9b9b48e304e52dd2d4806945a3ef572ab59
+
+arun@macbook:~$ docker ps
+CONTAINER ID   IMAGE               COMMAND                  CREATED         STATUS         PORTS                NAMES
+56f9fe4d029b   postgres            "docker-entrypoint.s…"   7 seconds ago   Up 3 seconds   5432/tcp             syntaxboard
+35d9edbbe3d8   docker101tutorial   "/docker-entrypoint.…"   37 hours ago    Up 2 minutes   0.0.0.0:80->80/tcp   docker-tutorial
+
+arun@macbook:~$ docker run --name syntaxboard_post -e POSTGRES_USER=syntaxboard -e POSTGRES_PASSWORD=syntaxboard -p 15321:5432 -d postgres
+d4e76c29d59675568c3f2dab7c1b6988838225ba3ee9fec6b585d3986bfe1c0a
+
+arun@macbook:~$ docker ps
+CONTAINER ID   IMAGE               COMMAND                  CREATED         STATUS         PORTS                     NAMES
+d4e76c29d596   postgres            "docker-entrypoint.s…"   6 seconds ago   Up 3 seconds   0.0.0.0:15321->5432/tcp   syntaxboard_post
+56f9fe4d029b   postgres            "docker-entrypoint.s…"   6 minutes ago   Up 6 minutes   5432/tcp                  syntaxboard
+35d9edbbe3d8   docker101tutorial   "/docker-entrypoint.…"   38 hours ago    Up 9 minutes   0.0.0.0:80->80/tcp        docker-tutorial
+
+arun@macbook:~$

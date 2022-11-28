@@ -1,0 +1,12 @@
+[ { "Product":"Soda"
+                                   ,"Quantity":10
+                                   ,"UnitPrice":2
+                                   ,"LineItemPrice": 20}
+                                 ,{ "Product":"Chips"
+                                   ,"Quantity":5.005
+                                   ,"UnitPrice":3
+                                   ,"LineItemPrice":15 }
+                                 ,{ "Product":true
+                                   ,"Quantity":4
+                                   ,"UnitPrice":5
+                                   ,"LineItemPrice":20 } ]

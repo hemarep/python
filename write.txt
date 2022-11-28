@@ -1,0 +1,1 @@
+File handling concepts in pythonWriting thru python fileOpens, write these lines, closes

@@ -1,0 +1,35 @@
+(base) C:\Users\hema1\Documents\Python notes>python Exercise_Practice1.py
+Answer for 2
+Proj_id's in the list are [101, 102, 103, 104, 105]
+----------
+Answer for 3
+Each Proj_id's in the list are
+101
+102
+103
+104
+105
+----------
+Answer for 5
+Emp_dic key and data values:  {'emp_no': 100, 'emp_name': 'Arun', 'emp_salary': 150000, 'Proj_ID1': [101, 103, 105]}
+----------
+Answer for 6
+Emp_dic key and data values:  Arun [101, 103, 105]
+----------
+Answer for 8
+Emp_dic key and data values:
+{'emp_no': 10, 'emp_name': 'Arun', 'emp_salary': 150000, 'Proj_ID1': [101, 103, 105]}
+{'emp_no': 11, 'emp_name': 'Adhyu', 'emp_salary': 170000, 'Proj_ID1': [102, 103, 104]}
+{'emp_no': 12, 'emp_name': 'Adithya', 'emp_salary': 200000, 'Proj_ID1': [102, 103, 104]}
+----------
+Answer for 9
+Employees in the project 103 are:
+Arun
+
+Adhyu
+
+Adithya
+
+----------
+
+(base) C:\Users\hema1\Documents\Python notes>
